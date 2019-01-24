@@ -18,13 +18,12 @@
     <span class="font-weight-light copyright">
       &copy;
       {{ (new Date()).getFullYear() }}
-      <a
-        href="https://www.creative-tim.com/"
-        target="_blank">Creative Tim</a>, made with
+      Continental 
       <v-icon
         color="tertiary"
-        size="17">mdi-heart</v-icon>
-      for a better web
+        style="margin: 0px 0px 2px 5px;"
+        size="17">mdi-cloud</v-icon>
+    
     </span>
   </v-footer>
 </template>
@@ -34,9 +33,9 @@ export default {
   data: () => ({
     links: [
       { name: 'Home', Link: '/dashboard' },
-      { name: 'Creative Tim', Link: 'https://www.creative-tim.com' },
-      { name: 'About Us', Link: 'https://creative-tim.com/presentation' },
-      { name: 'Blog', Link: 'https://blog.creative-tim.com' }
+      { name: 'Connext', Link: '/dashboard' },
+      { name: 'Request help', Link: '/dashboard' },
+      { name: 'Updates', Link: '/dashboard' }
     ]
   })
 }

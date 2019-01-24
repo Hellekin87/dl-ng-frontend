@@ -32,19 +32,21 @@
       >
         <v-text-field
           v-if="responsiveInput"
-          class="mr-4 mt-2 purple-input"
+          class="mr-4 mt-2"
           label="Search..."
           hide-details
-          color="purple"
+          clearable
+          color="#e7ab3c"
+          append-icon="mdi-magnify"
         />
-        <router-link
+        <!-- <router-link
           v-ripple
           class="toolbar-items"
           to="/"
         >
           <v-icon color="tertiary">mdi-view-dashboard</v-icon>
-        </router-link>
-        <v-menu
+        </router-link> -->
+        <!-- <v-menu
           bottom
           left
           content-class="dropdown-menu"
@@ -79,13 +81,16 @@
               </v-list-tile>
             </v-list>
           </v-card>
-        </v-menu>
+        </v-menu> -->
         <router-link
           v-ripple
           class="toolbar-items"
           to="/user-profile"
         >
-          <v-icon color="tertiary">mdi-account</v-icon>
+        
+        <span  style="margin-left: 10px; margin-right: 5px;">Bialas, Maik</span>
+          <v-icon color="tertiary">mdi-arrow-right-bold-box-outline</v-icon>
+          
         </router-link>
       </v-flex>
     </v-toolbar-items>
