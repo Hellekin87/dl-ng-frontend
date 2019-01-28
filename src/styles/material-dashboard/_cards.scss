@@ -12,6 +12,7 @@
     letter-spacing: 0 !important;
     font-size: $font-size-h4 !important;
     margin-bottom: $card-title-margin !important;
+    color: rgba($black, 1);
   }
 
   .v-divider {
@@ -26,7 +27,7 @@
     margin-bottom: $card-offset !important;
 
     .category {
-      color: rgba($white, .62);
+      color: rgba($black, .62);
     }
 
     .v-card--material__header.v-card{
@@ -82,6 +83,9 @@
 @include card-header-color('green', $brand-success, $green-400, $green-600);
 @include card-header-color('orange', $brand-warning, $orange-400, $orange-600);
 @include card-header-color('purple', $brand-primary, $purple-400, $purple-600);
+@include card-header-color('conti-grey', $black, $grey-800, $grey-600);
+@include card-header-color('conti-orange', $black, $orange-600, $orange-200);
+
 
 .v-card--material-stats.v-card {
   .v-offset {

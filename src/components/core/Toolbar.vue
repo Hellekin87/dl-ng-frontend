@@ -88,7 +88,7 @@
           to="/user-profile"
         >
         
-        <span  style="margin-left: 10px; margin-right: 5px;">Bialas, Maik</span>
+        <span style="margin-left: 10px; margin-right: 5px;">Bialas, Maik</span>
           <v-icon color="tertiary">mdi-arrow-right-bold-box-outline</v-icon>
           
         </router-link>

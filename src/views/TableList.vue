@@ -12,8 +12,9 @@
         md12
       >
         <material-card
-          color="green"
+          color="conti-grey"
           title="Simple Table"
+  
           text="Here is a subtitle for this table"
         >
           <v-data-table
@@ -26,7 +27,7 @@
               slot-scope="{ header }"
             >
               <span
-                class="subheading font-weight-light text-success text--darken-3"
+                class="subheading font-weight-light text--darken-3"
                 v-text="header.text"
               />
             </template>
@@ -46,7 +47,8 @@
         md12
       >
         <material-card
-          color="green"
+        class="text--darken-3"
+          color="conti-orange"
           flat
           full-width
           title="Table on Plain Background"
