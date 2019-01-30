@@ -94,14 +94,18 @@ export default {
         text: "Notifications"
       },
       {
+        to: "/search",
+        icon: "mdi-magnify",
+        text: "Search Dataset"
+      },{
+        to: "/create",
+        icon: "mdi-chart-bubble",
+        text: "Create Dataset"
+      },
+      {
         to: "/hadoop",
         icon: "mdi-chart-bubble",
         text: "Hadoop"
-      },
-      {
-        to: "/search",
-        icon: "mdi-magnify",
-        text: "Search Data"
       },
       {
         to: "/user-profile",

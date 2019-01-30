@@ -39,5 +39,13 @@ export default [
     path: '/upgrade',
     name: 'Upgrade to PRO',
     view: 'Upgrade'
+  },{
+    path: '/search',
+    name: 'Search data',
+    view: 'SearchData'
+  },{
+    path: '/create',
+    name: 'Create data',
+    view: 'CreateData'
   }
 ]
